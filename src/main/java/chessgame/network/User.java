@@ -54,7 +54,7 @@ public class User {
     public void setElo(int oppnentElo){
         this.elo = (oppnentElo + 400*(this.win - this.lose)) / this.win + this.lose + this.draw;
     }
-
+    
     public int getElo(){
         return this.elo;
     }

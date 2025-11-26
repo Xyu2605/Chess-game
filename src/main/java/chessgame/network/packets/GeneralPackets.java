@@ -155,7 +155,7 @@ public class GeneralPackets {
         public int chunkIndex;     // mảnh thứ bao nhiêu
         public int totalChunks;    // tổng số mảnh
         public byte[] imageData;   // dữ liệu của mảnh ảnh
-
+        
         public ImageChunk() {}
     }
 }

@@ -16,7 +16,7 @@ public class IngamePackets {
         public String from;   
         public String to;     
         public String promotion; // "Q" nếu phong cấp, còn lại null
-
+         
         public MovePacket() {}
         public MovePacket(String from, String to, String promotion) {
             this.from = from;
@@ -24,7 +24,7 @@ public class IngamePackets {
             this.promotion = promotion;
         }
     }
-
+       
     public static class OpponentInfo{
         public String opponentName;
         public int opponentId;
