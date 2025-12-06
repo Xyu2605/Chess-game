@@ -24,7 +24,7 @@ public class King extends Piece{
     }
 
     public boolean getHasMoved(){
-        return
+        return hasMove;
     }
 
     @Override

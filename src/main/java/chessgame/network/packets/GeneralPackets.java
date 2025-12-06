@@ -155,7 +155,18 @@ public class GeneralPackets {
         public int chunkIndex;     // mảnh thứ bao nhiêu
         public int totalChunks;    // tổng số mảnh
         public byte[] imageData;   // dữ liệu của mảnh ảnh
-        
-        public ImageChunk() {}
+
+        public ImageChunk(){};
+
+        public ImageChunk(int totalChunks){
+            this.totalChunks = totalChunks;
+        }
+
+        public ImageChunk(String fileName, int chunkIndex, int totalChunks, byte[] imageData){
+            this.fileName = fileName;
+            this.chunkIndex = chunkIndex;
+            this.totalChunks = totalChunks;
+            this.imageData = imageData;
+        }
     }
 }

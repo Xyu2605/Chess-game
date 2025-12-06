@@ -1,4 +1,4 @@
-public package chessgame.logic;
+package chessgame.logic;
 
 public class Utils {
 
